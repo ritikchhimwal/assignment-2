@@ -1,0 +1,156 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 60px 1px 60px;
+    background-color: rgb(252,175,2);
+    position: sticky;
+    top: 0;
+}
+
+.navbar img{
+    height: 20px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro{
+    display: flex;
+    padding: 50px;
+
+    .intro-image{
+        height: 300px;
+       
+    }
+}
+
+.intro .intro-text{
+    width: 100%;
+
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+    .login-button{
+        padding: 10px 50px 10px 50px;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(252,175,2);
+    }
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    padding: 10px 50px 10px 50px;
+    width: 90vw;
+
+    h1{
+        font-size: 30px;
+        color: rgb(252,175,2);
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input{
+            font-size: 15px;
+            padding:15px 40px 15px 40px;
+            border-radius: 50px;
+            border: 1px solid rgb(252,175,2);
+            background-color: black;
+        }
+        input::placeholder {
+            color: rgb(252,175,2);
+            opacity: 1; /* Firefox */
+          }
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        input{
+            font-size: 15px;
+            padding:15px 40px 15px 40px;
+            border-radius: 50px;
+            border: 1px solid rgb(252,175,2);
+            background-color: black;
+            width: 43%;
+        }
+        input::placeholder {
+            color: rgb(252,175,2);
+            opacity: 1; /* Firefox */
+          }
+    }
+    .submit-button{
+        margin-top: 20px;
+        padding: 15px 50px 15px 50px;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(252,175,2);
+        margin-left: 43%;
+        margin-top: 30px;
+    }
+}
+
+.table-section{
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 40px;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        color: rgb(252,175,2);
+    }
+    th {
+        font-weight: 100;
+        border: 1px solid #FFC107;
+        padding: 1rem;
+        padding-left: 4rem;
+        text-align: left;
+    }
+    td{
+        font-weight: 100;
+        border-left: 1px solid #FFC107;
+        border-right: 1px solid #FFC107;
+        padding: 1rem;
+        padding-left: 4rem;
+        text-align: left;
+    }
+    tfoot td {
+        background-color: #FFC107;
+        color: #000;
+        border-right: 1px solid black;
+    }
+    
+}
